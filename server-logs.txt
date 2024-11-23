@@ -1,0 +1,411 @@
+[2024-11-01 13:35:49] Server started and listening for connections.
+[2024-11-01 13:36:41] Connection established from 127.0.0.1
+[2024-11-01 13:36:47] User 'shiny' logged in.
+[2024-11-01 13:36:47] User 'shiny' connected.
+[2024-11-01 13:40:25] Server started and listening for connections.
+[2024-11-01 13:40:32] Connection established from 127.0.0.1
+[2024-11-01 13:40:50] User 'v12' registered.
+[2024-11-01 13:40:50] User 'v12' connected.
+[2024-11-01 13:45:31] User 'v12' disconnected.
+[2024-11-01 18:29:06] Server started and listening for connections.
+2024-11-01 18:40:56,705 - Server started.
+2024-11-01 18:41:41,276 - Server started.
+2024-11-01 18:41:53,887 - Connected to ('127.0.0.1', 53912)
+2024-11-01 18:41:53,887 - Total connections: 1
+2024-11-01 18:42:07,973 - User 'fc25' signed up successfully.
+2024-11-01 18:43:49,761 - Server started.
+2024-11-01 18:43:56,191 - Connected to ('127.0.0.1', 53936)
+2024-11-01 18:43:56,191 - Total connections: 1
+2024-11-01 18:46:52,054 - Server started.
+2024-11-01 18:46:58,046 - Connected to ('127.0.0.1', 53989)
+2024-11-01 18:46:58,046 - Total connections: 1
+2024-11-01 18:48:56,868 - Server started.
+2024-11-01 18:49:02,526 - Connected to ('127.0.0.1', 54030)
+2024-11-01 18:49:02,526 - Total connections: 1
+2024-11-01 18:49:09,046 - User 'travis' signed up successfully.
+2024-11-01 18:50:44,953 - Server started.
+2024-11-01 18:50:51,185 - Connected to ('127.0.0.1', 54059)
+2024-11-01 18:50:51,185 - Total connections: 1
+2024-11-01 18:50:59,887 - User 'cactus' signed up successfully.
+INFO:root:Server RSA Private Key: <cryptography.hazmat.bindings._rust.openssl.rsa.RSAPrivateKey object at 0x000001E6767347D0>
+INFO:root:Server RSA Public Key: <cryptography.hazmat.bindings._rust.openssl.rsa.RSAPublicKey object at 0x000001E676737DF0>
+INFO:root:Server RSA Private Key: <cryptography.hazmat.bindings._rust.openssl.rsa.RSAPrivateKey object at 0x00000272E4274EF0>
+INFO:root:Server RSA Public Key: <cryptography.hazmat.bindings._rust.openssl.rsa.RSAPublicKey object at 0x00000272E4274230>
+INFO:root:Data received from client.
+INFO:root:Decrypted AES Key (server): 30c5c518aad1de19be233dff796028890ac7c573d569da703f48c2556c07a6b7
+INFO:root:Data received from client.
+INFO:root:Nonce (server): 6d54d490dd5f3641c3309647
+INFO:root:Encrypted Message (server): 9a286808411561d5a50210bce9bf326b285b2aa25a6d5d221df985dfb718
+INFO:root:Decrypted Message: Hello, Server!
+INFO:root:Data received from client.
+ERROR:root:Failed to decrypt AES key: 'ChatterServer' object has no attribute 'server_private_key'
+INFO:root:Data received from client.
+ERROR:root:Decryption failed: 'ChatterServer' object has no attribute 'aes_key'
+ERROR:asyncio:Unhandled exception in client_connected_cb
+transport: <_ProactorSocketTransport fd=428 read=<_OverlappedFuture pending cb=[_ProactorReadPipeTransport._loop_reading()]>>
+Traceback (most recent call last):
+  File "D:\crypto cw1\Chatter\Chatter-Serverv2.py", line 42, in handle_client
+    await self.handle_client_session()  # Start session handling
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crypto cw1\Chatter\Chatter-Serverv2.py", line 96, in handle_client_session
+    del self.server_private_key
+        ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ChatterServer' object has no attribute 'server_private_key'
+INFO:root:Data received from client.
+ERROR:root:Failed to decrypt AES key: 'ChatterServer' object has no attribute 'server_private_key'
+INFO:root:Data received from client.
+ERROR:root:Decryption failed: 'ChatterServer' object has no attribute 'aes_key'
+ERROR:asyncio:Unhandled exception in client_connected_cb
+transport: <_ProactorSocketTransport fd=368 read=<_OverlappedFuture pending cb=[_ProactorReadPipeTransport._loop_reading()]>>
+Traceback (most recent call last):
+  File "D:\crypto cw1\Chatter\Chatter-Serverv2.py", line 42, in handle_client
+    await self.handle_client_session()  # Start session handling
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crypto cw1\Chatter\Chatter-Serverv2.py", line 96, in handle_client_session
+    del self.server_private_key
+        ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ChatterServer' object has no attribute 'server_private_key'
+INFO:root:Data received from client.
+ERROR:root:Failed to decrypt AES key: 'ChatterServer' object has no attribute 'server_private_key'
+INFO:root:Data received from client.
+ERROR:root:Decryption failed: 'ChatterServer' object has no attribute 'aes_key'
+ERROR:asyncio:Unhandled exception in client_connected_cb
+transport: <_ProactorSocketTransport fd=428 read=<_OverlappedFuture pending cb=[_ProactorReadPipeTransport._loop_reading()]>>
+Traceback (most recent call last):
+  File "D:\crypto cw1\Chatter\Chatter-Serverv2.py", line 42, in handle_client
+    await self.handle_client_session()  # Start session handling
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crypto cw1\Chatter\Chatter-Serverv2.py", line 96, in handle_client_session
+    del self.server_private_key
+        ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ChatterServer' object has no attribute 'server_private_key'
+2024-11-03 18:17:55,410 - Server RSA Private Key generated.
+2024-11-03 18:17:55,410 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-03 18:17:55,411 - Server started on 127.0.0.1:8888
+2024-11-03 18:18:04,292 - Client connected.
+2024-11-03 18:18:04,330 - Data received from client.
+2024-11-03 18:18:04,332 - Decrypted AES Key (server): deb908c6c3a6018614285f418c8b67f8b2ae74b26d4217c8c56f71b4700ae3b6
+2024-11-03 18:18:04,332 - Data received from client.
+2024-11-03 18:18:04,332 - Nonce (server): 61154593869ed1e79be038b9
+2024-11-03 18:18:04,332 - Encrypted Message (server): 8d32e36871c6547e509fa18f0508627fa012bbd4d20d27d677b8e77f5c88
+2024-11-03 18:18:04,332 - Decrypted Message: Hello, Server!
+2024-11-03 18:28:57,743 - Server RSA Private Key generated.
+2024-11-03 18:28:57,743 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-03 18:28:57,744 - Server started on 127.0.0.1:8888
+2024-11-03 18:29:03,563 - Client connected.
+2024-11-03 18:29:16,432 - Data received from client.
+2024-11-03 18:29:16,509 - User 'razer' registered successfully.
+2024-11-03 18:29:16,509 - Data sent to client.
+2024-11-03 18:29:16,546 - Data received from client.
+2024-11-03 18:29:16,547 - Unhandled exception in client_connected_cb
+transport: <_ProactorSocketTransport fd=432 read=<_OverlappedFuture pending cb=[_ProactorReadPipeTransport._loop_reading()]>>
+Traceback (most recent call last):
+  File "D:\crypto cw1\Chatter\Chatter-Serverv3.py", line 53, in handle_client
+    await self.authentication_loop()  # Start authentication before chat
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crypto cw1\Chatter\Chatter-Serverv3.py", line 107, in authentication_loop
+    command, username, password = data.decode().split(":", 2)
+                                  ~~~~~~~~~~~^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x83 in position 3: invalid start byte
+2024-11-03 18:39:59,323 - Server RSA Private Key generated.
+2024-11-03 18:39:59,323 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-03 18:39:59,324 - Server started on 127.0.0.1:8888
+2024-11-03 18:40:07,854 - Client connected.
+2024-11-03 18:40:20,727 - Data received from client.
+2024-11-03 18:40:20,803 - User 'steelseries' registered successfully.
+2024-11-03 18:40:20,803 - Data sent to client.
+2024-11-03 18:40:20,832 - Data received from client.
+2024-11-03 18:40:20,832 - Decoding error during authentication: 'utf-8' codec can't decode byte 0x8c in position 8: invalid start byte
+2024-11-03 18:40:20,832 - Data sent to client.
+2024-11-03 18:40:56,273 - Client connected.
+2024-11-03 18:41:05,134 - Data received from client.
+2024-11-03 18:41:05,211 - Unexpected error during authentication: too many values to unpack (expected 2)
+2024-11-03 18:41:05,211 - Data sent to client.
+2024-11-03 18:41:35,320 - Client connected.
+2024-11-03 18:41:42,492 - Data received from client.
+2024-11-03 18:41:42,566 - User 'ter' registered successfully.
+2024-11-03 18:41:42,566 - Data sent to client.
+2024-11-03 18:41:42,597 - Data received from client.
+2024-11-03 18:41:42,597 - Decoding error during authentication: 'utf-8' codec can't decode byte 0x9f in position 1: invalid start byte
+2024-11-03 18:41:42,597 - Data sent to client.
+2024-11-03 18:57:29,657 - Server RSA Private Key generated.
+2024-11-03 18:57:29,657 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-03 18:57:29,658 - Server started on 127.0.0.1:8888
+2024-11-03 18:57:34,510 - Client connected.
+2024-11-03 18:57:43,948 - Data received from client.
+2024-11-03 18:57:44,036 - User 'right' registered successfully.
+2024-11-03 18:57:44,036 - Data sent to client.
+2024-11-03 18:57:44,082 - Data received from client.
+2024-11-03 18:57:44,083 - Decoding error during authentication: 'utf-8' codec can't decode byte 0x86 in position 0: invalid start byte
+2024-11-03 18:57:44,083 - Data sent to client.
+2024-11-03 19:09:42,441 - Server RSA Private Key generated.
+2024-11-03 19:09:42,441 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-03 19:09:42,442 - Server started on 127.0.0.1:8888
+2024-11-03 19:09:46,552 - Client connected.
+2024-11-03 19:09:53,899 - Data received from client.
+2024-11-03 19:09:53,973 - User 'ash' registered successfully.
+2024-11-03 19:09:53,973 - Data sent to client.
+2024-11-03 19:09:54,029 - Data received from client.
+2024-11-03 19:09:54,029 - Decoding error during authentication: 'utf-8' codec can't decode byte 0xb8 in position 4: invalid start byte
+2024-11-03 19:09:54,029 - Data sent to client.
+2024-11-03 19:11:14,782 - Client connected.
+2024-11-03 19:11:19,954 - Data received from client.
+2024-11-03 19:11:20,028 - User 'io' registered successfully.
+2024-11-03 19:11:20,028 - Data sent to client.
+2024-11-03 19:11:20,050 - Data received from client.
+2024-11-03 19:11:20,050 - Decoding error during authentication: 'utf-8' codec can't decode byte 0xe8 in position 1: invalid continuation byte
+2024-11-03 19:11:20,050 - Data sent to client.
+2024-11-03 19:14:48,568 - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<ChatterServer.start_server() done, defined at D:\crypto cw1\Chatter\Chatter-Serverv3.py:179> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Users\youse\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>
+2024-11-03 22:44:00,831 - Server RSA Private Key generated.
+2024-11-03 22:44:00,837 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-03 22:44:00,838 - Server started on 127.0.0.1:8888
+2024-11-03 22:44:05,239 - Client connected.
+2024-11-03 22:44:19,675 - Data received from client.
+2024-11-03 22:44:19,752 - User 'fitbox' registered successfully.
+2024-11-03 22:44:19,752 - Data sent to client.
+2024-11-03 22:44:19,822 - Data received from client.
+2024-11-03 22:44:19,822 - Decoding error during authentication: 'utf-8' codec can't decode byte 0x97 in position 0: invalid start byte
+2024-11-03 22:44:19,822 - Data sent to client.
+2024-11-03 22:55:35,722 - Server RSA Private Key generated.
+2024-11-03 22:55:35,723 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-03 22:55:35,724 - Server started on 127.0.0.1:8888
+2024-11-03 22:55:48,974 - Client connected from ('127.0.0.1', 1276)
+2024-11-03 22:55:53,780 - Data received from client.
+2024-11-03 22:55:53,852 - User 'tea' registered successfully.
+2024-11-03 22:55:53,852 - Data sent to client.
+2024-11-03 22:55:53,896 - Data received from client.
+2024-11-03 22:55:53,896 - Decoding error during authentication: 'utf-8' codec can't decode byte 0x83 in position 1: invalid start byte
+2024-11-03 22:55:53,896 - Data sent to client.
+2024-11-03 22:55:53,897 - Connection closed for ('127.0.0.1', 1276)
+2024-11-03 22:57:04,980 - Client connected from ('127.0.0.1', 1303)
+2024-11-03 22:57:10,791 - Data received from client.
+2024-11-03 22:57:10,864 - User 'selim' registered successfully.
+2024-11-03 22:57:10,864 - Data sent to client.
+2024-11-03 22:57:10,893 - Data received from client.
+2024-11-03 22:57:10,893 - Decoding error during authentication: 'utf-8' codec can't decode byte 0xa8 in position 0: invalid start byte
+2024-11-03 22:57:10,999 - Data sent to client.
+2024-11-03 22:57:10,999 - Connection closed for ('127.0.0.1', 1303)
+2024-11-03 23:14:26,197 - Server RSA Private Key generated.
+2024-11-03 23:14:26,197 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-03 23:14:26,198 - Server started on 127.0.0.1:8888
+2024-11-03 23:14:29,859 - Client connected from ('127.0.0.1', 1516)
+2024-11-03 23:14:34,615 - Data received from client.
+2024-11-03 23:14:34,689 - User 'zaza' registered successfully.
+2024-11-03 23:14:34,689 - Data sent to client.
+2024-11-03 23:14:34,763 - Data received from client.
+2024-11-03 23:14:34,763 - Failed to receive data from client: 'utf-8' codec can't decode byte 0x91 in position 3: invalid start byte
+2024-11-03 23:14:40,243 - Data received from client.
+2024-11-03 23:14:40,243 - Failed to receive data from client: 'utf-8' codec can't decode byte 0x84 in position 0: invalid start byte
+2024-11-03 23:20:19,511 - Data received from client.
+
+
+
+2024-11-03 23:33:01,713 - Server RSA Private Key generated.
+2024-11-03 23:33:01,713 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-03 23:33:01,715 - Server started on 127.0.0.1:8888
+2024-11-03 23:33:08,247 - Client connected from ('127.0.0.1', 50361)
+2024-11-03 23:33:17,220 - Data received from client.
+2024-11-03 23:33:17,298 - User 'nai' registered successfully.
+2024-11-03 23:33:17,298 - Data sent to client.
+2024-11-03 23:33:17,337 - Data received from client.
+2024-11-03 23:33:17,338 - Failed to receive data from client: 'utf-8' codec can't decode byte 0xa2 in position 0: invalid start byte
+2024-11-03 23:33:23,495 - Data received from client.
+2024-11-03 23:33:23,495 - Failed to receive data from client: 'utf-8' codec can't decode byte 0xb1 in position 1: invalid start byte
+2024-11-03 23:51:46,993 - Connection closed for ('127.0.0.1', 50361)
+2024-11-03 23:55:37,385 - Server RSA Private Key generated.
+2024-11-03 23:55:37,385 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-03 23:55:37,386 - Server started on 127.0.0.1:8888
+2024-11-04 00:15:58,529 - \U0001f389 Chatter Server is currently listening on 127.0.0.1:8888 \U0001f389
+2024-11-04 00:16:01,328 - Connected to client at ('127.0.0.1', 51097)
+2024-11-04 00:16:07,128 - Error handling client ('127.0.0.1', 51097): Ciphertext length must be equal to key size.
+2024-11-04 00:16:07,128 - Connection closed for client ('127.0.0.1', 51097)
+2024-11-04 00:16:12,763 - Connected to client at ('127.0.0.1', 51103)
+2024-11-04 00:16:22,036 - Error handling client ('127.0.0.1', 51103): Ciphertext length must be equal to key size.
+2024-11-04 00:16:22,037 - Connection closed for client ('127.0.0.1', 51103)
+2024-11-04 00:21:31,525 - \U0001f389 Chatter Server is currently listening on 127.0.0.1:8888 \U0001f389
+2024-11-04 00:21:34,871 - Connected to client at ('127.0.0.1', 51162)
+2024-11-04 00:21:42,886 - User 'zaid
+zaid' registered successfully.
+2024-11-04 00:21:42,886 - Error handling client ('127.0.0.1', 51162): Ciphertext length must be equal to key size.
+2024-11-04 00:21:42,886 - Connection closed for client ('127.0.0.1', 51162)
+2024-11-04 00:22:09,936 - Connected to client at ('127.0.0.1', 51174)
+2024-11-04 00:22:15,475 - Failed login attempt for user 'zaid
+zaid'.
+2024-11-04 00:22:15,475 - Authentication failed for client ('127.0.0.1', 51174)
+2024-11-04 00:22:15,475 - Connection closed for client ('127.0.0.1', 51174)
+2024-11-04 00:24:05,788 - \U0001f389 Chatter Server is currently listening on 127.0.0.1:8888 \U0001f389
+2024-11-04 00:24:09,205 - Connected to client at ('127.0.0.1', 51234)
+2024-11-04 00:24:22,067 - User 'oii' registered successfully.
+2024-11-04 00:24:22,067 - Error handling client ('127.0.0.1', 51234): Ciphertext length must be equal to key size.
+2024-11-04 00:24:22,067 - Connection closed for client ('127.0.0.1', 51234)
+2024-11-04 00:25:40,446 - \U0001f389 Chatter Server is currently listening on 127.0.0.1:8888 \U0001f389
+2024-11-04 00:25:43,810 - Connected to client at ('127.0.0.1', 51267)
+2024-11-04 00:25:49,142 - User 'pick' registered successfully.
+2024-11-04 00:25:49,142 - Error handling client ('127.0.0.1', 51267): Ciphertext length must be equal to key size.
+2024-11-04 00:25:49,143 - Connection closed for client ('127.0.0.1', 51267)
+2024-11-04 00:25:53,389 - Connected to client at ('127.0.0.1', 51271)
+2024-11-04 00:25:58,099 - Error handling client ('127.0.0.1', 51271): not enough values to unpack (expected 3, got 2)
+2024-11-04 00:25:58,099 - Connection closed for client ('127.0.0.1', 51271)
+2024-11-04 00:27:02,980 - \U0001f389 Chatter Server is currently listening on 127.0.0.1:8888 \U0001f389
+2024-11-04 00:27:05,469 - Connected to client at ('127.0.0.1', 51291)
+2024-11-04 00:27:20,904 - Invalid command received from 
+2024-11-04 00:27:20,904 - Error handling client ('127.0.0.1', 51291): [WinError 10053] An established connection was aborted by the software in your host machine
+2024-11-04 00:27:20,904 - Unhandled exception in client_connected_cb
+transport: <_ProactorSocketTransport closed>
+Traceback (most recent call last):
+  File "D:\crypto cw1\Chatter\Chatter-Serverv4.py", line 67, in handle_client
+    await writer.wait_closed()
+  File "C:\Users\youse\AppData\Local\Programs\Python\Python313\Lib\asyncio\streams.py", line 358, in wait_closed
+    await self._protocol._get_close_waiter(self)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2024-11-04 00:27:25,459 - Connected to client at ('127.0.0.1', 51298)
+2024-11-04 00:36:21,485 - Server RSA Private Key generated.
+2024-11-04 00:36:21,485 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-04 00:36:21,487 - Server started on 127.0.0.1:8888
+2024-11-04 00:36:23,621 - Client connected from ('127.0.0.1', 51407)
+2024-11-04 00:36:30,724 - Data received from client.
+2024-11-04 00:36:30,800 - User 'ajj' registered successfully.
+2024-11-04 00:36:30,800 - Data sent to client.
+2024-11-04 00:36:30,858 - Data received from client.
+2024-11-04 00:36:30,858 - Failed to receive data from client: 'utf-8' codec can't decode byte 0x9a in position 3: invalid start byte
+2024-11-04 00:36:32,896 - Data received from client.
+2024-11-04 00:36:32,896 - Failed to receive data from client: 'utf-8' codec can't decode byte 0xd1 in position 1: invalid continuation byte
+2024-11-04 00:38:43,850 - Connection closed for ('127.0.0.1', 51407)
+2024-11-04 00:38:58,153 - Server RSA Private Key generated.
+2024-11-04 00:38:58,153 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-04 00:38:58,154 - Server started on 127.0.0.1:8888
+2024-11-04 00:39:02,767 - Client connected from ('127.0.0.1', 51438)
+2024-11-04 00:39:11,389 - Data received from client.
+2024-11-04 00:39:11,469 - User 'ytyt' registered successfully.
+2024-11-04 00:39:11,469 - Data sent to client.
+2024-11-04 00:39:11,496 - Data received from client.
+2024-11-04 00:39:11,496 - Failed to receive data from client: 'charmap' codec can't decode byte 0x8f in position 55: character maps to <undefined>
+2024-11-04 00:39:13,840 - Data received from client.
+2024-11-04 00:39:13,840 - Unexpected error during authentication: not enough values to unpack (expected 3, got 1)
+2024-11-04 00:39:13,840 - Data sent to client.
+2024-11-04 00:39:13,840 - Connection closed for ('127.0.0.1', 51438)
+2024-11-04 00:42:25,017 - Server RSA Private Key generated.
+2024-11-04 00:42:25,017 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-04 00:42:25,019 - Server started on 127.0.0.1:8888
+2024-11-04 00:42:28,627 - Client connected from ('127.0.0.1', 51479)
+2024-11-04 00:42:34,766 - Data received from client.
+2024-11-04 00:42:34,844 - User 'teatea' registered successfully.
+2024-11-04 00:42:34,844 - Data sent to client.
+2024-11-04 00:42:34,930 - Data received from client.
+2024-11-04 00:42:34,930 - Unexpected error during authentication: not enough values to unpack (expected 3, got 1)
+2024-11-04 00:42:34,930 - Data sent to client.
+2024-11-04 00:42:34,931 - Connection closed for ('127.0.0.1', 51479)
+2024-11-04 20:06:51,379 - Server RSA keys generated.
+2024-11-04 20:06:51,380 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-04 20:06:51,380 - Server started and listening for connections.
+2024-11-04 20:06:55,460 - Connected to client at ('127.0.0.1', 26277)
+2024-11-04 20:06:55,462 - Decrypted AES Key (server): e15b153a8f3bd9cb56137b0573037c0673dec84f88f8d9abaf9ab916aafc6691
+2024-11-04 20:07:02,642 - User 'tikt' registered successfully.
+2024-11-04 20:07:04,868 - Decrypted Message: hello
+2024-11-04 20:07:24,817 - Connection closed.
+2024-11-04 20:07:32,005 - Connected to client at ('127.0.0.1', 26291)
+2024-11-04 20:07:32,006 - Decrypted AES Key (server): c3c6eb7b208e892e55c2138d796bc0231b10c789d92877d052461c035b1aeddb
+2024-11-04 20:07:41,597 - Error handling client: too many values to unpack (expected 2)
+2024-11-04 20:07:41,597 - Connection closed.
+2024-11-04 20:16:59,529 - Server RSA keys generated.
+2024-11-04 20:16:59,530 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-04 20:16:59,530 - Server started and listening for connections.
+2024-11-04 20:17:02,533 - Connected to client at ('127.0.0.1', 27556)
+2024-11-04 20:17:02,534 - Decrypted AES Key (server): 8ede62f6c09b562bb6ff614b60cddb470fc77a19df24b951dd80d44c81cc8d67
+2024-11-04 20:17:08,047 - User 'nah' registered successfully.
+2024-11-04 20:17:10,017 - Decrypted Message: hello
+2024-11-04 20:17:13,826 - Decrypted Message: this is a test
+2024-11-04 20:17:23,506 - Connection closed.
+2024-11-04 20:17:25,095 - Connected to client at ('127.0.0.1', 27620)
+2024-11-04 20:17:25,096 - Decrypted AES Key (server): 1cc7175c026ed7f1fa15f03a1e5b282c7c91f85908a6c065b52cfecff59f16b0
+2024-11-04 20:17:28,697 - User 'nah' logged in successfully.
+2024-11-04 20:17:30,950 - Decrypted Message: hello
+2024-11-04 20:21:37,077 - Connection closed.
+INFO:root:RSA Private Key: PrivateKey(19073752740867116572607524233075510449249660478321021916659413509000778284352185057454572236412956302768156215565969308879488387050319474544410753918574149328581230846789727845576388275186614794085000155758817709079791651746657809001704648127043374862356993024077842212052955810368751603985593712078681501889465735001538249613437393199606013928140030008180531541375088418585638206179324698069759447930605803976244213944469190997075458018093146113813386818431877814007907281074661109790217388433221883894451281050577158171602906841011245143944644778941496133846839933175510957441734043884451568623968706740019336996223, 65537, 13373483867061123848023076217007992136556008798683633338303808690542666935384092277264675661617281155202397825067852597957205408751533182397580276077824751450289701064144449459573685362972063664845809880789072318689068864754423806116198945421453074115387738017446647351664637875433030272283082881018857022931979149657139129155318432140958999514604952906519907142237713578669247626062768574369370010962796357107180481223023170203227320297427480275693281780026350524616614610886405966954023274396161612819815232444583580184380672358370392212581064746321533347243848982291346358696089133096782491401200057088436150211153, 2733648677823354909136307326842876118792560538671027521988397277823622550775436537881961389066998079416071482688175115940538474540990524873894949509215168870431776428162000602615563921009262641356105112337601202322866665498271798446611210565814123651847122074918834581859551286745743033188924131704755451555211976487817209103433, 6977397240399755400510912886230346373562463601840476896103597208117631441886959809262632661225624718011765928030884147951465061167421675456257708966132122625189220360136282551492976878050738616773025857784651808392592663769471610999712081122637147776441747922904444657700428073689364810631)
+INFO:root:Server is ready and waiting for clients...
+INFO:root:Connection established from ('127.0.0.1', 51222)
+ERROR:root:Decryption failed: Decryption failed
+INFO:root:RSA Private Key: PrivateKey(30129443319984688421050794678681876006060687027218065826873942781931156778771195270222285403331908763011506893660850457733238697593027016786985371043135235146260925744751137826711033690941223092224856479570655454627350365563876600035070511407769322332001839627548555975235321947014056788704712553052396762753413005277845913495516229297130665248486590454182625426610622354437044777265260261283331583742972366862271680396853396244972244156327057165309959884741376785619367510311864070840142811560270661328647095343950804936930350322518972613983225627946351856196957689760972162845197004551444682354090020956998474568393, 65537, 22434912095690263438168954641190099471989281275130714136311524905904152628347869587970879467821187232173604779142308960394617520523364182358131835557089880146139328567738155941582593712222587040916932361918427547580980176686714040644390816740148968213401433904883798947029673482373101778974246351887637761490545486589507087835708538657309832465006370102111184613799498326058102998855973287633379534101498988473076535049732995377842706167322888222193448470377833633928933061964268940306042144169583645488502777402090874835139717243213284236391850954623288626904790550518846979898022475643153718654942054890933899756673, 3171914452804222286079407847179396784670039945023221845037076361596267975112078602555645984468115864590215986542955472482166845858383852332686740775455869721083121220834142278840950614645806440765852677653762720404257806416948600233181207385074920487847656477291098117960954383232368107908427039724378198037673845104169015656039, 9498819646080898139627260986752819642442895429146820747473877192525545429321418815350390326290213623808506780710529136483149475318052480819390541527690959155497428938434101285454729037640941095746035376614769154815636035631760567304461128058241872117575313469989327359675654308011118987087)
+INFO:root:Server is ready and waiting for clients...
+INFO:root:RSA Private Key: PrivateKey(18680120697725224365482426443879188444177583651423977507908132427355582813587749172536083150295836832708854891097130455325755815540204328499401579861248575339021659256400673321782278163937733815099129300074065046197027365403875075425101782729469655901141530431598870745626280170954069991687803042566287998162960148960113449789633134058985741202044325447946698865310446487168745064733498437027552321290407512671241894729614921036516933825455152407149923497091529800105690123273640402599919289741736725236960760337077392692587002838334443700391464242347954794170057917423463593146716357577896384268052271165070551084411, 65537, 16134217802077243773870222147119664645660804165415784165206522057013027223753521551358850522948805162205849079307155796324433647232147733565903633490180746861548759055320812874856735210181964731429363779707530890031321757460462771326699214358326287017777993043329021446757947252343792542828808964223930853526845933738547672640072520748205067334418079920339413792270018190389673172721735402099924851028491993902836480348376608608680903605633635164493316875229039298349292353065588714784209922405529502607477169544001392783986069335994287940497804012954290866591984903681676426171324146482878252237358700113029349342753, 2057029169171906870867543016765709805304067212387047964877828346580576465116400206572846421032445311918989712223221712002672989453879275277998710049863017619928484692280684925331703466262165148023177007047532949292549776856350734860265939525842458729226371341421000321443109049566910505368384216620035871469647591687343116793873, 9081116095813670065398192448462092730038116236424909566888774831682917134418734077098285850039014747351005692341334543861337964745734928728273858798252260127263160978963302269183861134551951024016231123232067141354924513028617567438742620482893023437901603230656343257202009584474109180107)
+INFO:root:Server is ready and waiting for clients...
+INFO:root:Connection established from ('127.0.0.1', 51316)
+ERROR:root:Decryption failed: Decryption failed
+INFO:root:Connection established from ('127.0.0.1', 51319)
+ERROR:root:Decryption failed: Decryption failed
+INFO:root:RSA Private Key: PrivateKey(16446879175439970942090999101852407268839296676989641220139913198079581871500170644111396349801020451951165342851463104860404849384754072497340830095167062203674168724308190335424486982708999573579843870215125626022397624305581826544409943654291352271154472247012311334056641955383114042625853857462257339100629952388405582873286529599213066919047048232489621755796715475155888425060875287633347968001822054564972393962641228851346563994498683992729503211347273949610171953101657537235660404550253873810436718429459463113398675685384089820540819163165635876992962152537864461133809053070025158195644296090171413494721, 65537, 15683472146560278682667454855581826941515660555540650747709597255199100798928897636506732302070811498003998933449840345732197095721503971202852055736415544691069429092354553229661920960440650752260133095336897874456715130857032458762117573716754475489964428385141742783799530631577089462346133086268263835088239196098825689876604960856826020274801584322961182337214453334927861072342342760954057843088318031864011280848824796429488567720181072136675353655752794577095611008072090971211608991123860970248901146746053841414744269777779458264731633910864871147473471243960938342594953897186920379608009843939190339150913, 1987562962486046034337733895266303931873993246324585887582444600632090123058402171195966468478967716420727664633212037276220457469472339998317812458424085855158914117249454791161455891233182822644263809882092281523261493698290393740083323352690264384667693538291942495795957820215822730392391550389974702540702669721855326300729, 8274897191114990186558479862859949659288930631379975653831444728164125074680921292724937325404576770471870782774223313643992525779219299274141157699811205825971865469274058769258040087659498930910436604614261370016383619651658652147178187582974346812375282343396308629257313347390937071049)
+INFO:root:Server is ready and waiting for clients...
+INFO:root:Waiting for incoming connections...
+INFO:root:Accepted connection from ('127.0.0.1', 51414)
+INFO:root:Connection established from ('127.0.0.1', 51414)
+INFO:root:Received encrypted AES key: b'V\xd4\xeb\xaa\xc8[{\xc1=\xbf\xca\xc4A\xb3C1H0\xb8b\x8abc\xd9\x85(\xe7q\xf9\xdd\xaf\x80\x1d\x1f\xb5\x8a0D\xef\x94\x95\x80\xb5[\x8bn\x8f\xdb\xd9\t\x15\xd8\xca\xb3H\xc4\xc8\xf1\x96\xb8\xae\x9b\xea\x94\xcb\x00jy\xf5qlF\x9dUm\x15}\xb9\x96\x90\xa0\xba\xbe\x00v\xcfC9\xb8\\\xf9\x1cp(\x0b\xd3\x0b\xd3"\x12\xa8\x8b\xbd\x9c&\xf9\x10\xe9V?\xdbA-%3\xda\xd6B\x9b&x\x11s($\xa0\xe0\xe3\xd7\xa8\x07\xfbt\xcea\x018\x0b\x8d\x91\xfdJ\xe1Yk\xa7\xcc\xda)\xc2\xe52\xd7\xc76\x8ae\xae\xb8\xd5/\x8e\x81N\xf2\x0f\x1d\xb2\x86NL\x9e$cT%\xd5\xc3J\x84_\xf7:-\x94u.R\x06\xa6\xe5Zf\x8d\xe871%\xd9/\x82A\x7f\xfa\xd7A_i\x7f\xf7\xb6o\xc0n\xaeum"\xaf\rhd\xc1\xc7s\x9b\x93WvsW\xef|\x0ek^%\xa5\x04\x8b\x0b\x91l\xbb`\xaa\x13\xc0\x80\x1eB\xdbo\xc0\xa6\xb9'
+ERROR:root:Decryption failed: Decryption failed
+2024-11-10 00:49:18,060 - Server RSA keys generated.
+2024-11-10 00:49:19,662 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-10 00:49:19,663 - Server started and listening for connections.
+2024-11-10 00:49:24,090 - Connected to client at ('127.0.0.1', 28980)
+2024-11-10 00:49:24,091 - Decrypted AES Key (server): 00fc725836180c86ec7d199b929ef26ba1bdb522ab291ea667f35ebdb76d5b6d
+2024-11-10 00:49:30,771 - User 'zahood' registered successfully.
+2024-11-10 00:49:32,509 - Decrypted Message: yo
+2024-11-10 00:49:36,285 - Decrypted Message: mr zah ed
+2024-11-10 00:51:05,798 - Connection closed.
+2024-11-18 18:09:12,092 - Server RSA keys generated.
+2024-11-18 18:09:12,111 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-18 18:09:12,112 - Server started and listening for connections.
+2024-11-18 18:09:14,976 - Connected to client at ('127.0.0.1', 35589)
+2024-11-18 18:09:14,978 - Decrypted AES Key (server): de549c0fc1bfb03fe806afa6fbdb8c2f44a7b21f731f9c7670b67037873f51ef
+2024-11-18 18:09:20,088 - User 'uy' registered successfully.
+2024-11-18 18:09:21,648 - Decrypted Message: he
+2024-11-18 18:09:22,287 - Decrypted Message: e
+2024-11-18 18:09:22,788 - Decrypted Message: e
+2024-11-18 18:21:29,576 - Decrypted Message: s
+2024-11-19 16:28:19,184 - Server RSA keys generated.
+2024-11-19 16:28:19,185 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-19 16:28:19,186 - Server started and listening for connections.
+2024-11-19 16:28:22,904 - Connected to client at ('127.0.0.1', 44899)
+2024-11-19 16:28:22,906 - Decrypted AES Key (server): 34d1064d64857c93d93250dc183bbafe29e4b9b84036ac30693b17f9f7d715b6
+2024-11-19 16:28:32,669 - User 'shinyy' registered successfully.
+2024-11-19 16:28:34,594 - Decrypted Message: hello
+2024-11-19 16:28:38,011 - Connection closed.
+2024-11-19 16:28:40,057 - Connected to client at ('127.0.0.1', 44903)
+2024-11-19 16:28:40,057 - Decrypted AES Key (server): 4bcc0c1f0d35e708fb04e3178a53b9f690db7f29f96cad648695df90af4e9553
+2024-11-19 16:28:50,423 - User 'shinyy' logged in successfully.
+2024-11-19 16:28:52,140 - Decrypted Message: hello
+2024-11-19 16:28:57,837 - Connection closed.
+2024-11-19 16:28:59,591 - Connected to client at ('127.0.0.1', 44907)
+2024-11-19 16:28:59,591 - Decrypted AES Key (server): 2fc64c7a07fab5559480bb32ce0f0444931e6344b1592b5d18b789f3ead31f5d
+2024-11-19 16:29:10,837 - Failed login attempt for user 'shinyy'
+2024-11-19 16:29:10,837 - Connection closed.
+2024-11-19 16:49:34,036 - Server RSA keys generated.
+2024-11-19 16:49:34,037 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-19 16:49:34,038 - Chatter Server is currently listening on 127.0.0.1:8888
+2024-11-19 16:49:34,038 - Server is actively listening for connections on 127.0.0.1:8888
+2024-11-19 16:50:30,324 - Server RSA keys generated.
+2024-11-19 16:50:30,325 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-19 16:50:30,326 - Chatter Server is currently listening on 127.0.0.1:8888
+2024-11-19 16:50:33,771 - Connected to client at ('127.0.0.1', 45154)
+2024-11-19 16:50:33,773 - Decrypted AES Key (server): bb86c44e2247d92806452c8c49a0925d3c1cbfd98816751d868b995e592ca4af
+2024-11-19 16:50:39,727 - User 'ty' registered successfully.
+2024-11-19 16:50:39,727 - Registration failed for user 'ty': Username already exists.
+2024-11-19 16:50:39,727 - Connection closed.
+2024-11-19 16:50:52,950 - Connected to client at ('127.0.0.1', 45159)
+2024-11-19 16:50:52,950 - Decrypted AES Key (server): 1460895102d2b88b4c86869764c8913e1d17f682ce0a11782bf8f38c3eb35861
+2024-11-19 16:50:56,622 - User 'ty' logged in successfully.
+2024-11-19 16:50:56,623 - Connection closed.
+2024-11-19 16:51:31,949 - Server RSA keys generated.
+2024-11-19 16:51:31,950 - Server RSA Public Key saved to server_public_key.pem.
+2024-11-19 16:51:31,951 - Chatter Server is currently listening on 127.0.0.1:8888
+2024-11-19 16:51:34,772 - Connected to client at ('127.0.0.1', 45167)
+2024-11-19 16:51:34,774 - Decrypted AES Key (server): 76e93ee7d049d0b71fde9e5aee1f920438ca7ba77079cbeaf6c1bb655a8a4a37
+2024-11-19 16:51:40,541 - User 'yur' registered successfully.
+2024-11-19 16:51:42,028 - Decrypted Message: hello
+2024-11-19 16:51:48,425 - Connection closed.
+2024-11-19 16:51:50,530 - Connected to client at ('127.0.0.1', 45170)
+2024-11-19 16:51:50,531 - Decrypted AES Key (server): 7a0b7dac6cac8d03fe1d25055512d682a605d9a0bf6f77cecdfaa993188fe026
+2024-11-19 16:51:57,606 - Failed login attempt for user 'yu'
+2024-11-19 16:51:57,606 - Connection closed.
+2024-11-23 17:20:36,223 - \U0001f389 Chatter Server is currently listening on 127.0.0.1:8888 \U0001f389
+2024-11-23 17:20:36,690 - Connected to client at ('127.0.0.1', 49927)
+2024-11-23 17:20:36,690 - Error handling client ('127.0.0.1', 49927): 'utf-8' codec can't decode byte 0xb4 in position 1: invalid start byte
+2024-11-23 17:20:36,691 - Connection closed for client ('127.0.0.1', 49927)
